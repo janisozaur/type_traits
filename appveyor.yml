@@ -21,7 +21,7 @@ environment:
     - APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
       ARGS: --toolset=msvc-14.1 address-model=32
     - APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
-      ARGS: --toolset=msvc-14.1 address-model=32  cxxflags=-arch:ARM
+      ARGS: --toolset=msvc-14.1 address-model=32  architecture=arm
 
 
 install:
